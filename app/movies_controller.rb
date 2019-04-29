@@ -44,11 +44,11 @@ def can_get_the_first_item_in_the_database
 end
 
 def can_get_the_last_item_in_the_database
-  Movie.last.id
+  Movie.last
 end
 
 def can_get_size_of_the_database
-  Movie.size
+  Movie.last.id
 end
 
 def can_find_the_first_item_from_the_database_using_id
